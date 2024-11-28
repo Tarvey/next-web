@@ -3,7 +3,10 @@
     --gradient-2: rgba(3, 196, 255, 0.3);
     --gradient: linear-gradient(var(--gradient-1), var(--gradient-2), 45deg);
 }
-
+* {
+    margin:0px;
+    line-height: 1.4;
+}
 
 #navbar {
     min-height: 40px !important;
