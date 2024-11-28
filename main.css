@@ -7,7 +7,7 @@
     margin:0px;
     line-height: 1.4;
 }
-#box {
+.box {
     background:#222;
     border:1px solid #bcd;
     padding:.65em;
