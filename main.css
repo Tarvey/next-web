@@ -7,6 +7,9 @@
     margin:0px;
     line-height: 1.4;
 }
+#content-left {
+    margin: 0 340px 0 0;
+}
 .box {
     background:#222;
     border:1px solid #bcd;
