@@ -32,3 +32,6 @@ h2 {
     margin-bottom: .5em;
     border-bottom: 1px solid #FFF;
 }
+#content {
+    padding:1em;
+}
