@@ -7,9 +7,15 @@
     margin:0px;
     line-height: 1.4;
 }
+#box {
+    background:#222;
+    border:1px solid #bcd;
+    padding:.65em;
+}
 html {
     color:white;
     background-color: #111;
+    font:normal 100% sans-serif;
 }
 
 #navbar {
