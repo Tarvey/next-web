@@ -7,6 +7,10 @@
     margin:0px;
     line-height: 1.4;
 }
+html {
+    color:white;
+    background-color: #111;
+}
 
 #navbar {
     min-height: 40px !important;
