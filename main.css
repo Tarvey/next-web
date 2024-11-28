@@ -27,3 +27,8 @@ html {
     background: #000;
     border-bottom: var(--gradient);
 }
+h2 {
+    font-size: 1.5em;
+    margin-bottom: .5em;
+    border-bottom: 1px solid #FFF;
+}
