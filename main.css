@@ -41,3 +41,8 @@ h2 {
     width:300px;
     margin-left:-300px;
 }
+
+#content-left-wrapper {
+    float:left;
+    width: 100%;
+}
