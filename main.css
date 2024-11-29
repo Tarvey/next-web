@@ -35,3 +35,9 @@ h2 {
 #content {
     padding:1em;
 }
+
+#content-right {
+    float:left;
+    width:300px;
+    margin-left:-300px;
+}
