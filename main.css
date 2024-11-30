@@ -11,7 +11,7 @@
     margin: 0 340px 0 0;
 }
 .box {
-    background:#222;
+    background:#222; 
     border:1px solid #bcd;
     padding:.65em;
 }
@@ -34,4 +34,15 @@ h2 {
 }
 #content {
     padding:1em;
+}
+
+#content-right {
+    float:left;
+    width:300px;
+    margin-left:-300px;
+}
+
+#content-left-wrapper {
+    float:left;
+    width: 100%;
 }
