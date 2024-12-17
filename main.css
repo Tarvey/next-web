@@ -34,6 +34,7 @@ h2 {
 }
 #content {
     padding:1em;
+    background-image:url(./bunny.webp);
 }
 
 #content-right {
