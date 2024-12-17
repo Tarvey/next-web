@@ -11,13 +11,13 @@
     margin: 0 340px 0 0;
 }
 .box {
-    background:url(./bunny.webp);
+    background:#222; 
     border:1px solid #bcd;
     padding:.65em;
 }
 html {
     color:white;
-    background-color: #111;
+    background:url(./bunny.webp);
     font:normal 100% sans-serif;
 }
 
