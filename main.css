@@ -17,7 +17,8 @@
 }
 html {
     color:white;
-    background-color: #111;
+    background:url(./bunny.png) no-repeat center center fixed;
+    background-size: cover;
     font:normal 100% sans-serif;
 }
 
@@ -45,4 +46,7 @@ h2 {
 #content-left-wrapper {
     float:left;
     width: 100%;
+}
+a {
+    color:white;
 }
