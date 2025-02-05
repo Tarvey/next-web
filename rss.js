@@ -1,4 +1,4 @@
-fetch("https://chrisbingcdn.ct8.pl/rss.xml")
+fetch("https://chrisbingcdn.ct8.pl/rss.xml") 
   .then(response => response.text())
   .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
   .then(data => {
