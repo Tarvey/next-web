@@ -1,4 +1,4 @@
-fetch("https://chrisbingcdn.ct8.pl/rss.xml") 
+fetch("https://raw.githubusercontent.com/Tarvey/Tarvey/refs/heads/main/news.rss") 
   .then(response => response.text())
   .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
   .then(data => {
@@ -13,12 +13,12 @@ fetch("https://chrisbingcdn.ct8.pl/rss.xml")
           </h3>
           <p>
               ${el.querySelector("content").innerHTML}
-          </p>
-          <hr>
-              ${el.querySelector("date").innerHTML}
-          </hr>
+          </p><br>
+          <h5><i>
+              Date: ${el.querySelector("date").innerHTML}
+          </i></h5>
         </article>
       `;
     });
-    document.body.insertAdjacentHTML("beforeend", html);
+    document.getElementById('news').innerHTML += html;
   });
