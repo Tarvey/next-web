@@ -7,7 +7,7 @@ fetch("https://raw.githubusercontent.com/Tarvey/Tarvey/refs/heads/main/news.rss"
     let html = ``;
     items.forEach(el => {
       html += `
-        <article>
+        <article id="post">
           <h3>
               ${el.querySelector("title").innerHTML}
           </h3>

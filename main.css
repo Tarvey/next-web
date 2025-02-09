@@ -50,3 +50,8 @@ h2 {
 a {
     color:white;
 }
+#post {
+    background: #111;
+    padding: .35em;
+    border: 1px solid #bcd;
+}
