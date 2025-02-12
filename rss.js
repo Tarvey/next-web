@@ -20,5 +20,5 @@ fetch("https://raw.githubusercontent.com/Tarvey/Tarvey/refs/heads/main/news.rss"
         </article>
       `;
     });
-    document.getElementById('news').innerHTML += html;
+    document.getElementById('newsinner').innerHTML = html;
   });
