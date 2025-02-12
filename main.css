@@ -23,8 +23,7 @@ html {
 }
 
 #navbar {
-    min-height: 40px !important;
-    padding: 10px 15px !important;
+    min-height: 1.4em !important;
     background: #000;
     border-bottom: var(--gradient);
 }
