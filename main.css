@@ -17,8 +17,8 @@
 }
 html {
     color:white;
-    background:url(./bunny.png) no-repeat center center fixed;
-    background-size: cover;
+    background:url(./background.gif) /*no-repeat center center fixed*/;
+    /*background-size: cover;*/
     font:normal 100% sans-serif;
 }
 
